@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "495299139470",
+    "firebase_url": "https://real-notepad-default-rtdb.firebaseio.com",
+    "project_id": "real-notepad",
+    "storage_bucket": "real-notepad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495299139470:android:eed535c70381f3368676df",
+        "android_client_info": {
+          "package_name": "com.example.notepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495299139470-ab71miv5bgvfcnmo70kfjjvnvjs3tocl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDW-w7oYcaBVZ0vIfR3joXM0bgEMmIzWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495299139470-ab71miv5bgvfcnmo70kfjjvnvjs3tocl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495299139470:android:cc720a836f2fb2878676df",
+        "android_client_info": {
+          "package_name": "com.example.registrationandlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495299139470-ab71miv5bgvfcnmo70kfjjvnvjs3tocl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDW-w7oYcaBVZ0vIfR3joXM0bgEMmIzWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495299139470-ab71miv5bgvfcnmo70kfjjvnvjs3tocl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
