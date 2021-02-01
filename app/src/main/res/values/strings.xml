@@ -12,4 +12,7 @@
     <string name="title_activity_register_acitivity">RegisterAcitivity</string>
     <string name="title_activity_person">personActivity</string>
     <string name="title_activity_password_reset">PasswordResetActivity</string>
+    <string name="rock_paper_scissors">Rock Paper Scissors</string>
+    <string name="dice_roll">Dice Roll</string>
+    <string name="coin_flip">Coin Flip</string>
 </resources>

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class RegisterActivity : AppCompatActivity() {
+
     private lateinit var signUpEmailEditText: EditText
     private lateinit var signUpPasswordText: EditText
     private lateinit var signUpConfirmPasswordText: EditText
@@ -70,4 +71,3 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 }
-

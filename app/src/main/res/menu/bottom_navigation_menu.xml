@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_coin"
+        android:title="@string/coin_flip"
+        android:id="@+id/coin_flip"/>
+    <item
+        android:icon="@drawable/ic_dice"
+        android:title="@string/dice_roll"
+        android:id="@+id/dice_roll"/>
+    <item
+        android:icon="@drawable/ic_rock_paper_scissors"
+        android:title="@string/rock_paper_scissors"
+        android:id="@+id/rock_paper_sc"/>
+
+
+</menu>
