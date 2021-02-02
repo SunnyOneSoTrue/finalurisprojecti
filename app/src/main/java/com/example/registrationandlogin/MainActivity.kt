@@ -7,7 +7,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-
 class MainActivity : AppCompatActivity() {
     private lateinit var inputEmail: EditText
     private lateinit var inputPassword: EditText
@@ -60,6 +59,8 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+
 
 }
 
