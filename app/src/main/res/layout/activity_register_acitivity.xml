@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinatorLayout2"
+    android:background="@drawable/ic_resgister_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
         tools:context=".RegisterActivity" >
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
+
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Email"
+
             android:ems="10"
             android:inputType="textEmailAddress" />
 
@@ -45,14 +48,16 @@
         <Button
             android:id="@+id/registerButton"
             android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#4CAF50"
             android:text="Register" />
 
         <Button
             android:id="@+id/backButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
             android:text="Back" />
     </LinearLayout>
 

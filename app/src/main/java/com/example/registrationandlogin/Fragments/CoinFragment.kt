@@ -24,7 +24,7 @@ class CoinFragment: Fragment(R.layout.fragment_coin) {
     }
 
     public fun onCoinTap() {
-        iv_view_coin.setOnClickListener {
+        CoinView.setOnClickListener {
             val RandomNumber=(1..1000).random()
 
             if(RandomNumber<499){

@@ -2,8 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CoinView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_coin_flip_background">
 
     <ImageView
         android:id="@+id/iv_view_coin"
@@ -15,21 +17,20 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38"
+        app:layout_constraintVertical_bias="0.246"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/CoinTextView"
-        android:layout_width="290dp"
-        android:layout_height="51dp"
-        android:text="Toss a Coin(to your witcher)!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toss a Coin(to your witcher)"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_view_coin"
-        app:layout_constraintVertical_bias="0.363"
-        tools:text="Toss a Coin(to your witcher)!" />
-
+        app:layout_constraintVertical_bias="0.455"
+        tools:text="Toss a Coin(to your witcher)" />
 </androidx.constraintlayout.widget.ConstraintLayout>
